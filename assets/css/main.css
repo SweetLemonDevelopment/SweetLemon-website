@@ -35,6 +35,19 @@ h6 {
   font-family: var(--font-primary);
 }
 
+/*----------Custom styles by Sabi------------*/
+#sweet-lemon-title { 
+  color: var(--color-yellow);
+}
+
+#custom-hover:hover{ 
+  background-color: #485664e6;
+  color: yellow;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/

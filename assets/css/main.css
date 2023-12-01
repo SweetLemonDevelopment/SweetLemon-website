@@ -40,10 +40,12 @@ h6 {
   color: var(--color-yellow);
 }
 
+/*
 #custom-hover:hover{ 
   background-color: #485664e6;
   color: yellow;
 }
+*/
 
 
 
@@ -580,7 +582,7 @@ section {
 .hero-animated {
   width: 100%;
   min-height: 50vh;
-  background: url("../img/hero-bg.png") center center;
+  background: url("../img/yellow-background.svg") center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;

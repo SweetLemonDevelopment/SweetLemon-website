@@ -12,6 +12,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+/*Custom Styles by Sabi*/
+#main-img { 
+  height: auto;
+
+}
+
+
 :root {
   scroll-behavior: smooth;
 }
@@ -341,7 +350,7 @@ section {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--color-primary);
+    background-color: var(--color-yellow);
     visibility: hidden;
     transition: all 0.3s ease-in-out 0s;
     transform: scaleX(0);
@@ -359,7 +368,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: var(--color-primary);
+    color: var(--color-yellow);
   }
 
   .navbar .dropdown a:hover:before,
@@ -1180,7 +1189,7 @@ section {
   background: none;
   font-size: 18px;
   font-weight: 400;
-  color: var(--color-secondary);
+  color: var(--color-yellow);
   padding: 12px 0;
   margin-bottom: -2px;
   border-radius: 0;

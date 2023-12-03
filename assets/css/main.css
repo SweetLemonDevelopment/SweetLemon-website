@@ -20,6 +20,25 @@
 
 }
 
+.logo-img {
+  width: 70px
+}
+
+.icon {
+  height: 80px;
+}
+
+.title-container { 
+  justify-content: center;
+  display: flex;
+
+}
+
+
+
+
+
+
 
 :root {
   scroll-behavior: smooth;

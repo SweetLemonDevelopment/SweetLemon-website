@@ -48,7 +48,6 @@
 
 
 
-
 :root {
   scroll-behavior: smooth;
 }
@@ -74,7 +73,7 @@ h6 {
 
 /*----------Custom styles by Sabi------------*/
 #sweet-lemon-title { 
-  color: var(--color-yellow);
+  color: var(--color-yellow);;
 }
 
 /*
@@ -228,7 +227,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 995;
-  background: var(--color-primary);
+  background: var(--color-yellow);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -619,10 +618,13 @@ section {
 .hero-animated {
   width: 100%;
   min-height: 50vh;
-  background: url("../img/yellow-background.svg") center center;
+  background: url("../img/vid-background.mp4") center center;
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
+  width: 100vw;
+  height: 100vh;
+  
 }
 
 .hero-animated h2 {
@@ -1644,7 +1646,7 @@ section {
   margin: 0;
   width: 72px;
   height: 72px;
-  background: var(--color-primary);
+  background: var(--color-yellow);
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -1674,16 +1676,16 @@ section {
 }
 
 .services .service-item:hover .details h3 {
-  color: var(--color-primary);
+  color: var(--color-yellow);
 }
 
 .services .service-item:hover .details .icon {
   background: var(--color-white);
-  border: 2px solid var(--color-primary);
+  border: 2px solid var(--color-yellow);
 }
 
 .services .service-item:hover .details .icon i {
-  color: var(--color-primary);
+  color: var(--color-yellow);
 }
 
 .services .service-item:hover .img img {
@@ -2024,7 +2026,7 @@ section {
 
 .portfolio .portfolio-flters li:hover,
 .portfolio .portfolio-flters li.filter-active {
-  color: var(--color-primary);
+  color: var(--color-yellow);
 }
 
 .portfolio .portfolio-flters li:first-child {

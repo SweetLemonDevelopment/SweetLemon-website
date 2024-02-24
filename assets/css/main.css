@@ -1,25 +1,36 @@
-/**
-* Template Name: HeroBiz
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/*General*/
 
-/**
-* Check out variables.css for easy customization of colors, typography, and other repetitive properties
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+body{
+  background-color: #091217;
 
+}
+
+.working-message {
+  position: fixed;
+  top: 10rem;
+  right: 1rem;
+  z-index: 100;
+  color: rgb(250, 251, 245);
+  font-size: 16px;
+}
 
 /*Custom Styles by Sabi*/
+
+.section-title {
+  color: rgb(250, 251, 245);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5rem;
+
+}
+
+#main h2 {
+  color: rgb(250, 251, 245);
+}
 
 
 #main-img { 
   height: auto;
-
 }
 
 .logo-img {
@@ -74,7 +85,11 @@ h6 {
 /*----------Custom styles by Sabi------------*/
 #sweet-lemon-title { 
   margin-top: 100px;
-  color: var(--color-yellow);;
+  color: #FDFD96;
+}
+
+#hero-animated p{
+  color: rgb(250, 251, 245);
 }
 
 /*
@@ -267,10 +282,12 @@ section {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+  background-color: rgba(0, 0, 0, 0.8);
+
 }
 
 .header.sticked {
-  background: var(--color-white);
+  background: var(--color-black);
   box-shadow: 0px 2px 20px rgba(var(--color-secondary-rgb), 0.1);
 }
 
@@ -282,7 +299,7 @@ section {
 .header .logo h1 {
   font-size: 32px;
   font-weight: 300;
-  color: var(--color-secondary);
+  color: rgb(250, 251, 245);
   font-family: var(--font-secondary);
 }
 
@@ -362,6 +379,7 @@ section {
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
+    color: rgb(250, 251, 245);
   }
 
   .navbar a i,
@@ -378,7 +396,7 @@ section {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--color-yellow);
+    background-color: #FDFD96;
     visibility: hidden;
     transition: all 0.3s ease-in-out 0s;
     transform: scaleX(0);
@@ -396,7 +414,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: var(--color-yellow);
+    color: #FDFD96;
   }
 
   .navbar .dropdown a:hover:before,
@@ -619,20 +637,20 @@ section {
 .hero-animated {
   width: 100%;
   min-height: 50vh;
-  background: url("../img/vid-background.mp4") center center;
+  /*background: url("../img/vid-background.mp4") center center;*/
   background-size: cover;
   position: relative;
   padding: 120px 0 60px;
   width: 100vw;
   height: 100vh;
-  
+  background-color: #091217;
 }
 
 .hero-animated h2 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 300;
-  color: var(--color-secondary);
+  color: rgb(250, 251, 245);
   font-family: var(--font-secondary);
 }
 
@@ -1124,10 +1142,16 @@ section {
 /*--------------------------------------------------------------
 # Featured Services Section
 --------------------------------------------------------------*/
+#featured-services {
+  background-color: #06170e;
+}
+
+
 .featured-services .service-item {
   padding: 30px;
   transition: all ease-in-out 0.4s;
-  background: var(--color-white);
+  background: var(--color-gray);
+  color: rgb(250, 251, 245);
   height: 100%;
 }
 
@@ -1170,6 +1194,10 @@ section {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+
+#about{
+  color: rgb(250, 251, 245);
+}
 .about .about-img {
   position: relative;
   margin: 60px 0 0 60px;
@@ -1622,6 +1650,10 @@ section {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+#services {
+  background-color: #06170e;
+}
+
 .services .img {
   border-radius: 8px;
   overflow: hidden;
@@ -2121,6 +2153,12 @@ section {
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
+
+#team {
+  background-color: #06170e;
+}
+
+
 .team .team-member .member-img {
   border-radius: 8px;
   overflow: hidden;
